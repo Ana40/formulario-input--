@@ -1,0 +1,15 @@
+<template>
+	<div class="app slds-p-around_x-large">
+		<h1 class="slds-text-heading_large">Criar Conta</h1>
+	
+		<lightning-input type="text" label="Nome" name="Nome" onchange={handleInputChange}></lightning-input>
+		<lightning-input type="text" label="Sobrenome" name="Phone" onchange={handleInputChange}></lightning-input>
+		<lightning-input type="email" label="Email" name="Email" onchange={handleInputChange}></lightning-input>
+		<lightning-input type="text" label="Site" name="Site" onchange={handleInputChange}></lightning-input>
+		<lightning-input type="text" label="Email" name="Empresa" onchange={handleInputChange}></lightning-input>
+    <lightning-input type="number" label="Receita Anual" name="Receita Anual" onchange={handleInputChange}></lightning-input>
+
+		
+		<lightning-button variant="brand" label="Criar" class="slds-m-left_x-small"></lightning-button>
+	</div>
+</template>
